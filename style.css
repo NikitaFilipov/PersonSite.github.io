@@ -1,0 +1,867 @@
+
+
+
+
+
+
+
+
+/* Media *//* Media *//* Media *//* Media *//* Media */
+
+/* 575px */
+
+  *{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+  }
+  .wrapper {
+    min-height: 100%;
+  }
+  header {
+    width: 100%;
+    height: 250px;
+    background-color:	#FFFFFF;
+    font-family: 'Nunito', sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+  }
+
+  .about-person{
+    display: flex;
+  }
+  .about-person__about {
+    margin:30px 0 0 20px;
+  }
+  .about-person__title {
+    color: #49515a;
+    font-size: 38px;
+
+  }
+  .about-person__subtitle {
+    font-weight: 400;
+    font-size: 24px;
+    color: #778492;
+    margin: 0 0 20px 0 ;
+  }
+  .about-person__icons img{
+    margin-left: 5px;
+    width: 70px;
+    height: 40px;
+    cursor: pointer;
+    transition-duration: 1s;
+  }
+  .about-person__icons img:hover{
+    transition: all;
+    transition-duration: 2s;
+    background-color: #696969;
+    border-radius: 50%;
+    background-color: greenyellow;
+  }
+  .header__button button {
+    width: 140px;
+    height: 40px;
+    background-color: #54ba4e;
+    border:1px solid #54ba4e;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+    transition-duration: 2s;
+    border-radius: 5%;
+  }
+  .header__button button:hover{
+    transition: all;
+    transition-duration: 2s;
+    background-color: green;
+  }
+  main{
+    background-color:#D3D3D3;
+    font-family: 'Nunito', sans-serif;
+    display: grid;
+    grid-template-columns: 3fr 1.5fr;
+    padding:20px;
+  }
+  .container{
+    max-width: 800px;
+    margin: 0px auto;
+  }
+  .about-me {
+    background-color: #FFFFFF;
+    padding:30px;
+    width: 700px;
+    margin: 0 0 40px 0 ;
+  }
+  .about-me__title {
+    font-size: 30px;
+    font-weight: bold;
+    margin:0 0 30px 0;
+  }
+  .text-about__text1{
+    margin:0 0 20px 0 ;
+  }
+
+  .text-about {
+    line-height: 25px
+  }
+  .contact{
+    background-color: #FFFFFF;
+    padding: 30px;
+    width: 380px;
+    height: 210px;
+  }
+  .hr-first{
+    width: 100%;
+    height: 10px;
+    background-color: blue;
+  }
+  .town{
+    display: flex;
+    align-items:center;
+    margin: 0 0 15px 0;
+  }
+  .contact img {
+    width: 40px ;
+    height: 40px;
+    cursor: pointer;
+  }
+  .town__title {
+    margin-left: 10px;
+  }
+
+  .gmail {
+    display: flex;
+    align-items: center;
+    margin: 0 0 15px 0;
+  }
+  .another-link {
+    display: flex;
+    align-items: center;
+  }
+  .title--green{
+      margin-left: 10px;
+      color: green;
+  }
+  .title-green{
+      margin-left: 10px;
+      color: green;
+
+  }
+  .title--green:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .latest-projects {
+    background-color: #FFFFFF;
+    padding:30px;
+    width:700px;
+  }
+  .latest-projects__title{
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 0 30px 0;
+  }
+  .kickstar-text {
+    text-align: center;
+    margin: 0 0 30px 0 ;
+  }
+  .kickstar-text__title{
+    color: grey;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .kickstar-text__subtitle{
+    color: grey;
+    font-weight: 500;
+  }
+  .kickstar-about__image img{
+    width: 100%;
+    margin: 0 0 30px 0 ;
+  }
+  .kickstar-about__text {
+    margin: 0 0 30px 0 ;
+  }
+  .kickstar-about__text1{
+    margin: 0 0 30px 0;
+  }
+  .kickstar-about__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+  .kickstar-about__button button{
+    background-color: #74C0F2;
+    color: white;
+
+    padding:10px;
+    cursor: pointer;
+    transition-duration: 2s;
+    margin: 0 0 30px 0 ;
+  }
+  .kickstar-about__button button:hover{
+    transition: all;
+    transition-duration: 2s;
+    background-color: #696969;
+  }
+
+  .skills {
+    margin: 30px 0 0 0;
+    background-color: #FFFFFF;
+    max-width: 380px;
+
+    padding: 30px;
+  }
+  .skills__title{
+    font-weight: bold;
+    font-size: 30px;
+
+  }
+  .skills__text{
+    margin: 30px 0 0 0 ;
+  }
+  .skills-languages{
+    margin: 30px 0 10px 0;
+
+  }
+
+
+  .skills-languages input{
+    width: 100%;
+    background-color: green;
+    margin: 0 0 10px 0 ;
+  }
+  .skills-languages__subtitle {
+    display: inline-block;
+    float: right;
+    color: silver;
+  }
+  .skills-languages__title{
+    display: inline-block;
+  }
+  .skills-languages__scale{
+    margin: 5px 0 0 0;
+  }
+  .article-about{
+    position: relative;
+  }
+  .article-about__text{
+    display: inline-block;
+    padding-left: 30px;
+  }
+  .article-about::before{
+    content: '';
+    height: 80px;
+    width: 5px;
+    position: absolute;
+    background-color: green;
+
+  }
+  .article {
+    background-color: #FFFFFF;
+    width: 380px;
+    padding: 30px;
+    margin: 30px 0 0 0;
+
+  }
+  .article-about__text::before{
+      background-image:  url('images/edit.svg');
+  }
+  .article__title {
+    padding: 20px 0 0 0 ;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0 0 20px 0 ;
+  }
+  .author {
+    margin: 30px 0 0 0;
+    font-weight: 600;
+  }
+  .author__author{
+    color: grey;
+    margin: 0 0 5px 0;
+  }
+  .author__subphrase{
+    color: grey;
+    font-weight: 500;
+    margin: 0 0 30px 0;
+  }
+  .info-block{
+    display: flex;
+  }
+  .about{
+    display: flex;
+  }
+  .linkedin a{
+    text-decoration: none;
+    color: green;
+    padding-left: 5px;
+    padding-bottom: 5px;
+
+  }
+  .linkedin a:hover {
+    text-decoration: underline;
+  }
+  .linkedin a::before{
+    background: url(images/comment.svg)
+  }
+  .linkedin img {
+    width: 40px;
+    height: 40px;
+    margin: 5px 0 0 0;
+  }
+  .body {
+    margin: 0 0 0 30px ;
+  }
+  .body__link{
+    margin: 0 0 20px 0 ;
+  }
+  .body__link img{
+    width: 20px;
+    height: 20px;
+  }
+  .body__link a {
+    text-decoration: none;
+    color: green;
+  }
+  .body__link a:hover{
+    text-decoration: underline;
+  }
+  .body__title {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  .info-blocks {
+    margin: 30px 0 0 0;
+  }
+  .info-block__image img{
+    width: 250px;
+    height: 200px;
+  }
+  .body__title {
+    margin: 0 40px 0 0;
+    color: grey;
+  }
+  .body__title:hover {
+    text-decoration: underline;
+    cursor: pointer;
+
+  }
+  .body__text{
+    margin: 20px 0 20px 0;
+  }
+  .universitys{
+    background-color: #FFFFFF;
+    padding: 30px ;
+    margin: 30px 0 0 0;
+    width: 380px;
+  }
+  .univers-computer__image img {
+    width: 40px;
+    height: 40px;
+
+  }
+  .univers-second__image img {
+    width: 40px;
+    height: 40px;
+  }
+  .universitys__title {
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0 0 30px ;
+  }
+  .univers-computer__title {
+    display:inline-block;
+    font-weight: bold;
+    font-size: 17px;
+    color: grey;
+    padding-left: 10px;
+    margin: 0 0 30px 0 ;
+  }
+  .univers-computer__subtitle{
+    margin: 0 0 0 70px;
+    color: red;
+    font-weight: 600;
+    font-size: 13px;
+  }
+  .univers-computer__subtitle::after{
+    content: '(2011-2012)';
+    color: grey;
+  }
+  .univers-second__title{
+    display:inline-block;
+    font-weight: bold;
+    font-size: 17px;
+    color: grey;
+    padding-left: 10px;
+    margin: 0 0 30px 0 ;
+  }
+
+  .univers-second__subtitle {
+    margin: 0 0 0 70px;
+    color: red;
+    font-weight: 600;
+    font-size: 13px;
+  }
+  .univers-second__subtitle::after{
+    content: ' (2008-2011)';
+    color: grey;
+  }
+  .languages{
+    background-color: #FFFFFF;
+    margin: 30px 0 0 0;
+    padding: 30px;
+    width: 380px;
+  }
+  .languages-about__title {
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0 0 30px 0;
+  }
+  .english-language {
+    margin: 0 0 10px 0 ;
+  }
+  .english-language {
+    color: grey;
+    font-weight: 700;
+  }
+  .english-language p{
+    display: inline-block;
+    color: grey;
+    font-weight: 500;
+    padding: 0 0 0 3px ;
+  }
+  .spanish-language{
+    color: grey;
+    font-weight: 700;
+  }
+  .spanish-language p{
+    display: inline-block;
+    color: grey;
+    font-weight: 500;
+    padding: 0 0 0 3px;
+  }
+  .english-language p::after{
+    content: '✳️✳️✳️✳️✳️';
+    padding-left: 5px;
+  }
+  .spanish-language p::after{
+    content: '✳️✳️✳️';
+    padding-left: 5px;
+  }
+
+
+  .latest-blog {
+    background-color: #FFFFFF;
+    padding: 30px ;
+    margin: 30px 0 0 0 ;
+    width: 380px;
+  }
+  .latest-blog__title{
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0 0 30px 0 ;
+  }
+  .latest-blog__text a{
+    color: green;
+    text-decoration: none;
+  }
+  .latest-blog__text a:hover{
+    text-decoration: underline;
+  }
+  .another-article__link img {
+    width: 20px;
+    height: 20px;
+
+  }
+  .another-article__link a {
+    color: green;
+    text-decoration: none;
+  }
+  .another-article__link a:hover{
+    text-decoration: underline;
+  }
+  .another-article__link{
+    margin: 0 0 20px 0;
+  }
+  .another-articles {
+    margin: 30px 0 0 0 ;
+  }
+  .another-article__title{
+    font-weight: 900;
+    color: grey;
+    margin: 0 0 20px 0;
+    display: inline-block;
+    font-size: 18px;
+
+  }
+  .another-article__title:hover {
+    text-decoration: underline;
+
+  }
+  .another-article__text{
+    margin: 0 0 20px 0;
+    line-height: 20px;
+  }
+  .project__link img {
+    width: 20px;
+    height: 20px;
+  }
+  .other-projects {
+    margin: 30px 0 0 0 ;
+    background-color: #FFFFFF;
+    padding: 30px;
+    width: 700px;
+  }
+  .other-projects__title{
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0 0 30px;
+  }
+  .project__title {
+    font-weight: bold;
+    color: #696969;
+    margin: 0 0 10px 0 ;
+    font-size:18px;
+  }
+  .project__title:hover{
+    text-decoration: underline;
+    cursor: pointer;
+
+  }
+
+  .project__text{
+    margin: 0 0 20px 0 ;
+  }
+  .project__link a {
+    text-decoration: none;
+    color: green;
+  }
+  .project__link{
+    margin: 0 0 20px 0 ;
+  }
+  .project__link a:hover {
+    text-decoration: underline;
+  }
+  .other-projects button{
+    background-color: #1E90FF;
+    border-radius: 10%;
+    color: white;
+    height:40px;
+    width: 230px;
+    display: inline-block;
+    font-size: 15px;
+    cursor: pointer;
+    transition-duration: 2s;
+  }
+  .other-projects button::after{
+    content: '🔎';
+
+  }
+
+  .other-projects button:hover{
+    transition: all;
+    transition-duration: 2s;
+    background-color:#0000CD;
+  }
+
+  .project__title--button::after {
+      content: 'Open Source';
+      border:2px solid green;
+      background-color: green;
+      color: white;
+      margin: 0 0 20px 0 ;
+      border-radius: 5%;
+
+
+  }
+  .coding-music {
+    background-color: #FFFFFF;
+    padding: 30px;
+    width: 380px;
+    margin: 30px 0 0 0;
+  }
+  .coding-music__title {
+    font-weight: bold;
+    font-size: 25px;
+    margin: 0 0 30px 0 ;
+  }
+  .music-name__title {
+    margin: 0 0 10px 0 ;
+    color: grey;
+  }
+  .music-name__title:hover{
+    text-decoration: underline;
+  }
+  .music-name__title::before{
+    content: '🎧';
+    text-decoration: none;
+  }
+  .conferences{
+    background-color: #FFFFFF;
+    padding: 30px;
+    margin: 30px 0 0 0;
+    width: 380px;
+  }
+  .conferences__title {
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0 0 30px 0 ;
+  }
+  .first-conference__title a{
+    color: grey;
+    text-decoration: none;
+    margin: 0 0 20px 0 ;
+  }
+  .second-conference__title a{
+    color: grey;
+    text-decoration: none;
+  }
+  .first-conference{
+    margin: 0 0 15px 0 ;
+  }
+  .first-conference__title::before{
+    content: '📅';
+  }
+  .second-conference__title::before{
+    content: '📅';
+
+  }
+  .conferences a:hover{
+    text-decoration: underline;
+  }
+  .first-conference__title::after{
+    content: '(San Francisco)';
+  }
+  .second-conference__title::after {
+    content: ' (Seattle)';
+
+  }
+  .second-conference {
+    margin: 0 0 15px 0 ;
+  }
+  .work-experience{
+    background-color: #FFFFFF;
+    padding: 30px;
+    margin: 30px 0 0 0;
+    width: 700px;
+  }
+  .work-experience__title{
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0 0 30px 0 ;
+  }
+  .first-work__title{
+    color: grey;
+    font-weight: 800;
+    margin: 0 0 15px 0 ;
+  }
+  .first-work__title::after{
+    content: 'Startup Hub (2014 - Present)';
+    color: grey;
+    font-weight: 500;
+  }
+  .first-work__title:hover::after{
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .first-work__about{
+    margin: 0 0 30px 0;
+  }
+  .second-work__title{
+    color: grey;
+    font-weight: 800;
+    margin: 0 0 15px 0 ;
+  }
+  .second-work__title::after{
+    content: 'Google (2013 - 2014)';
+    color: grey;
+    font-weight: 500;
+  }
+  .second-work__title:hover:after{
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .second-work__about{
+    margin: 0 0 30px 0 ;
+  }
+  .third-work__title::after{
+    content: ' eBay (2012 - 2013)';
+    color: grey;
+    font-weight: 500;
+  }
+  .third-work__title{
+    color: grey;
+    font-weight: 800;
+    margin: 0 0 15px 0 ;
+  }
+  .third-work__title:hover::after{
+    text-decoration: underline;
+    color: grey;
+    font-weight: 500;
+    cursor: pointer;
+  }
+  .credits {
+    background-color: #FFFFFF;
+    padding: 30px;
+    margin: 30px 0 0 0;
+    width: 380px;
+  }
+  .links {
+    margin: 0 0 20px ;
+  }
+  .links a{
+    display: inline-block;
+  }
+  .credits__title {
+    font-weight: bold;
+    font-size: 30px;
+    margin: 0 0 30px 0 ;
+
+  }
+  .links a {
+    text-decoration: none;
+    color: grey;
+    margin: 0 0 10px 0 ;
+  }
+  .links a::before{
+    content: '🔗';
+  }
+  .links a:hover{
+    text-decoration: underline;
+
+  }
+  .owner__title-1{
+    margin: 0 0 10px 0 ;
+  }
+  .owner__title-1::after{
+    content: 'Ben Smith';
+    color: grey;
+  }
+  .owner__title-2::after{
+    content: 'Regy Perlera';
+    color: grey;
+  }
+  .owner__title-1:hover::after,.owner__title-2:hover::after{
+    text-decoration: underline;
+    cursor: pointer;
+  }
+  .owner{
+    margin: 0 0 30px 0;
+  }
+  .about-markup {
+    margin: 30px 0 0 0;
+  }
+  .about-markup__elem1  {
+    text-decoration: none;
+    color: green;
+
+  }
+  .about-markup__elem2{
+    text-decoration: none;
+    color: green;
+  }
+  .about-markup__elem1 a:hover {
+    text-decoration: underline;
+  }
+  .about-markup__elem2 a:hover {
+    text-decoration: underline;
+  }
+  .decoration  {
+    color: grey;
+    border-bottom: 1px dotted grey;
+  }
+  .about-markup__elem3{
+    text-decoration: none;
+    cursor: text;
+    color: #000000;
+    font-weight: bold;
+  }
+  .Mygithub{
+    background-color: #FFFFFF;
+    margin: 30px 0 0 0;
+    padding: 30px;
+    width: 700px;
+    height: 700px;
+    margin: 0 0 60px 0
+  }
+  .Mygithub__title {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0 0 30px 0;
+  }
+  .Mygithub a{
+    color: green;
+    text-decoration: none;
+  }
+  .Mygithub a:hover {
+    text-decoration: underline;
+  }
+  .text1 {
+    margin: 0 0 30px 0 ;
+
+  }
+  .download {
+    display: block;
+    margin: 20px 0 0 0;
+    background-color: yellowgreen;
+    color: white;
+    width: 200px;
+    height: 40px;
+    cursor: pointer;
+    transition-duration: 2s;
+  }
+  .follow {
+    background-color: #18AEFF;
+    color: white;
+    width: 130px;
+    height: 40px;
+    margin: 20px 0 0 0;
+    cursor: pointer;
+    transition-duration: 2s;
+  }
+  .follow::before{
+    content: '👁‍🗨';
+    width: 60px;
+  }
+  .follow:hover{
+    transition: all;
+    transition-duration: 2s;
+    background-color: blue;
+
+  }
+  .download::before{
+    content: '📱';
+  }
+  .download:hover {
+    transition: all;
+    transition-duration: 2s;
+    background-color: green;
+  }
+  footer {
+    background-color: #6600FF;
+    max-width: 100%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    color: #B2AEC6;
+  }
+  footer .container{
+    max-width: 350px;
+    margin: 0px auto;
+  }
+  footer a {
+    color: yellowgreen;
+    text-decoration: none;
+
+  }
+  footer a:hover{
+    text-decoration: underline;
+  }
+  footer p {
+    display: inline-block;
+  }
+  footer p::after{
+    content: '❤️';
+  }
